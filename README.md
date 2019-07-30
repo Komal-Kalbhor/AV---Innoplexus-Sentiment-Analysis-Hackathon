@@ -19,13 +19,13 @@ For Stelara the above text is positive while for Remicade the above text is nega
 
 ##### Data Description
 train.csv Contains the labelled texts with sentiment values for a given drug
+test.csv contains texts with drug names for which the participants are expected to predict the correct sentiment
 
 ##### Variable	Definition
-unique_hash	Unique ID
-text	text pertaining to the drugs
-drug	drug name for which the sentiment is provided
-sentiment	(Target) 0-positive, 1-negative, 2-neutral
-test.csv test.csv contains texts with drug names for which the participants are expected to predict the correct sentiment
+unique_hash	   Unique ID
+text	         text pertaining to the drugs
+drug	         drug name for which the sentiment is provided
+sentiment	     Target) 0-positive, 1-negative, 2-neutral
 
 ##### Evaluation Metric
 The metric used for evaluating the performance of the classification model would be macro F1-Score.
