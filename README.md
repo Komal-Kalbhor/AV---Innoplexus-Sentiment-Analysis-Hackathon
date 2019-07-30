@@ -18,7 +18,7 @@ Stelara is still fairly new to Crohn's treatment. This is why you might not get 
 For Stelara the above text is positive while for Remicade the above text is negative.
 
 ##### Data Description
-train.csv Contains the labelled texts with sentiment values for a given drug
+train.csv Contains the labelled texts with sentiment values for a given drug    
 test.csv contains texts with drug names for which the participants are expected to predict the correct sentiment
 
 ##### Variable	Definition
